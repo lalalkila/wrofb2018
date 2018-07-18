@@ -53,7 +53,7 @@ def CurrentPOS(current_pos = 0, ):
 	return current_pos
 
 while __name__ == '__main__':
-	main_heading = ir_seeker.direction()
+	main_heading = compass.direction()
 	while True:
 		ir_direction = ProcessInput()
 		update(main_heading, ir_direction)
